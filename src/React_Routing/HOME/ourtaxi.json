@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "taxiimg": "./scard/normaltaxi.jpg",
+        "base_rate": 5, 
+        "per_km": 2.5,
+        "class":"Normal"
+    },
+    {
+        "id": 2,
+        "taxiimg": "./scard/towntaxi.jpg",
+        "base_rate":7,
+        "per_km": 4,
+        "class":"Town"
+    },
+    {
+        "id": 3,
+        "taxiimg": "./scard/suvtaxi.jpg",
+        "base_rate": 10, 
+        "per_km": 5,
+        "class":"suv"
+    },
+    {
+        "id": 4,
+        "taxiimg": "./scard/limotaxi.jpg",
+        "base_rate": 10,
+        "per_km": 7,
+        "class":"Limousine"
+    }
+    
+]

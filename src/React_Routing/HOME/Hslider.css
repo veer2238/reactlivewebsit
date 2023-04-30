@@ -1,0 +1,98 @@
+
+.hs{
+    z-index: 1;
+}
+.hs .p1{
+    
+    height: 550px;
+    width: 100%;
+    background: rgba(0,0,0,.5) url('../../../public/forslider/s1.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #ffb300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 h1{
+    
+    animation: slide-down 2s;
+    position: absolute;
+    
+
+}
+@keyframes slide-down {
+
+    from{
+        opacity: .2;
+        line-height: 50px;
+        top: 43%;
+        
+    }
+    to{
+        opacity: 1;
+        line-height: 30px;
+        top:47%
+    
+    }
+    
+}
+.p1 h2{
+    
+}
+
+
+
+.hs .p2{
+    
+    height: 550px;
+    width: 100%;
+    background: rgba(0,0,0,.5) url('../../../public/forslider/long-s12.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.hs .p3{
+    
+    height: 550px;
+    width: 100%;
+    background: rgba(0,0,0,.5) url('../../../public/forslider/long-s7.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.hs .p4{
+    
+    height: 550px;
+    width: 100%;
+    background: rgba(0,0,0,.5) url('../../../public/forslider/long-s8.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.hs .p5{
+    
+    height: 550px;
+    width: 100%;
+    background: rgba(0,0,0,.5) url('../../../public/forslider/s2.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.hs .p6{
+    
+    height: 550px;
+    width: 100%;
+    background: rgba(0,0,0,.5) url('../../../public/forslider/s4.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+@media (max-width:850px) {
+    .hs div{
+        height: 300px;
+    }
+}
+
+
